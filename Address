@@ -1,0 +1,13 @@
+class Address:
+    index = "645200"
+    town = "Ufa"
+    street = "Kuvikina"
+    home = "20"
+    kvartira = "77"
+   
+    def __init__(self, index, town, street, home, kvartira):
+        self.i = index
+        self.t = town
+        self.s = street
+        self.h = home
+        self.kv = kvartira
